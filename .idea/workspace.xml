@@ -2,8 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a880fc5e-7bbb-49fc-92b4-5b8c6d916694" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pachong/妙手仙丹.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/wangyiyun_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pachong/guiyankuangdao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/manhua/9.jpg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,12 +43,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pachong/guiyankuangdao.py">
+        <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+            <state relative-caret-position="60">
+              <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,6 +71,9 @@
       <find>mhurl1</find>
       <find>urlretrieve</find>
       <find>print</find>
+      <find>ary</find>
+      <find>j-chapter-link</find>
+      <find>lazy-read</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -55,13 +87,14 @@
         <option value="$PROJECT_DIR$/Pachong/muke.py" />
         <option value="$PROJECT_DIR$/Pachong/jike.py" />
         <option value="$PROJECT_DIR$/Pachong/guiyankuangdao.py" />
+        <option value="$PROJECT_DIR$/Pachong/妙手仙丹.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="73" />
-    <option name="y" value="90" />
-    <option name="width" value="1400" />
+    <option name="x" value="195" />
+    <option name="y" value="23" />
+    <option name="width" value="1245" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -108,7 +141,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.guiyankuangdao">
+  <component name="RunManager" selected="Python.妙手仙丹">
+    <configuration name="妙手仙丹" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pachong" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/妙手仙丹.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="guiyankuangdao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,6 +249,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.妙手仙丹" />
         <item itemvalue="Python.guiyankuangdao" />
         <item itemvalue="Python.muke" />
         <item itemvalue="Python.jike" />
@@ -216,15 +271,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="19" y="200" width="1400" height="810" extended-state="0" />
-    <editor active="true" />
+    <frame x="195" y="23" width="1245" height="810" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28104576" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924694" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49963742" visible="true" weight="0.19916435" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963742" weight="0.40807799" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,9 +321,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/wangyiyun_spider.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/wangyiyun_spider.py" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -294,15 +346,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong10759.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong10801.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong-1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong10759.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong10801.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong-1.jpg" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/http/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
@@ -310,18 +356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong4.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/1.jpg" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/re.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -353,9 +391,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/manhua/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/2.jpg" />
     <entry file="file://$PROJECT_DIR$/Pachong/muke.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -363,15 +399,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/manhua/1.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/1.jpg" />
     <entry file="file://$PROJECT_DIR$/Pachong/guiyankuangdao.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="71" column="46" lean-forward="true" selection-start-line="71" selection-start-column="46" selection-end-line="71" selection-end-column="46" />
+        <state relative-caret-position="190">
+          <caret line="71" column="48" selection-start-line="71" selection-start-column="14" selection-end-line="71" selection-end-column="48" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/3.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/5.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/7.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/0.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
