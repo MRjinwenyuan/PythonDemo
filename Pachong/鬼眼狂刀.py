@@ -17,11 +17,11 @@ def gethtml(num):
     ary.reverse()
 
     for eleindex, ele in enumerate(ary):
-        cannext = True
-        index = 0
-
         if eleindex < num:
             continue
+
+        cannext = True
+        index = 0
 
         while cannext == True:
             index += 1
