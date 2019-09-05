@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def gethtml():
+def gethtml(num):
     url = "https://www.mkzhan.com/210400"
     response = requests.get(url).text
 
@@ -16,11 +16,14 @@ def gethtml():
     ary.reverse()
 
     for index,ele in enumerate(ary):
+        if index < num:
+            continue
+
         suburl = "https://www.mkzhan.com/210400/" + ele.get('data-chapterid') + ".html"
         subresponse = requests.get(suburl).text
         subsoup = BeautifulSoup(subresponse, 'lxml')
         imgurls = subsoup.findAll('img', class_="lazy-read")
-        dirpath = path.dirname(__file__) + '/manhua' + '/' + '第' + str(index) + '话'
+        dirpath = path.dirname(__file__) + '/妙手仙丹' + '/' + '第' + str(index) + '话'
         if not os.path.exists(dirpath):
             os.makedirs(dirpath)
 
@@ -32,5 +35,5 @@ def gethtml():
 
 
 if __name__ == '__main__':
-    gethtml()
+    gethtml(134)
 
