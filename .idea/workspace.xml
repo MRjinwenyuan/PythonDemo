@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a880fc5e-7bbb-49fc-92b4-5b8c6d916694" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Pachong/Boss直聘.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/jike.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/muke.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/.idea/Pachong.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pachong/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Pachong/妙手仙丹.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pachong/妙手仙丹.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pachong/闪灵二人组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pachong/闪灵二人组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pachong/鬼眼狂刀.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pachong/鬼眼狂刀.py" afterDir="false" />
@@ -18,25 +20,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pachong/Boss直聘.py">
+        <entry file="file://$PROJECT_DIR$/Pachong/鬼眼狂刀.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="381">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,6 +52,12 @@
       <find>ary</find>
       <find>j-chapter-link</find>
       <find>lazy-read</find>
+      <find>url</find>
+      <find>Crawl</find>
+      <find>话</find>
+      <find>title</find>
+      <find>index</find>
+      <find>鬼眼狂刀第23卷</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Pachong/manhua</dir>
@@ -78,18 +74,20 @@
         <option value="$PROJECT_DIR$/Pachong/muke.py" />
         <option value="$PROJECT_DIR$/Pachong/jike.py" />
         <option value="$PROJECT_DIR$/Pachong/guiyankuangdao.py" />
-        <option value="$PROJECT_DIR$/Pachong/鬼眼狂刀.py" />
-        <option value="$PROJECT_DIR$/Pachong/闪灵二人组.py" />
-        <option value="$PROJECT_DIR$/Pachong/妙手仙丹.py" />
         <option value="$PROJECT_DIR$/Pachong/Boss直聘.py" />
+        <option value="$PROJECT_DIR$/Pachong/闪灵二人组.py" />
+        <option value="$PROJECT_DIR$/Pachong/test.py" />
+        <option value="$PROJECT_DIR$/Pachong/test02.py" />
+        <option value="$PROJECT_DIR$/Pachong/妙手仙丹.py" />
+        <option value="$PROJECT_DIR$/Pachong/鬼眼狂刀.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="19" />
-    <option name="y" value="68" />
-    <option name="width" value="1245" />
-    <option name="height" value="810" />
+    <option name="x" value="41" />
+    <option name="y" value="252" />
+    <option name="width" value="1233" />
+    <option name="height" value="748" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -99,7 +97,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +113,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,7 +133,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Boss直聘">
+  <component name="RunManager" selected="Python.guiyankuangdao">
     <configuration name="妙手仙丹" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -149,27 +147,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/妙手仙丹.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="闪灵二人组" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonDemo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pachong" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/闪灵二人组.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -199,6 +176,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="闪灵二人组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pachong" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/闪灵二人组.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="闪灵二人组" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pachong" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/闪灵二人组.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="guiyankuangdao" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -220,7 +239,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="muke" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -232,7 +251,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/muke.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonDemo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pachong" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/test02.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Boss直聘" />
-        <item itemvalue="Python.妙手仙丹" />
         <item itemvalue="Python.guiyankuangdao" />
-        <item itemvalue="Python.闪灵二人组" />
-        <item itemvalue="Python.muke" />
+        <item itemvalue="Python.test02" />
+        <item itemvalue="Python.妙手仙丹" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Boss直聘" />
       </list>
     </recent_temporary>
   </component>
@@ -265,15 +305,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-30" y="373" width="1245" height="810" extended-state="0" />
+    <frame x="41" y="252" width="1233" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28104576" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28382838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924694" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963742" visible="true" weight="0.41086352" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963742" weight="0.18445122" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,48 +426,14 @@
     <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/5.jpg" />
     <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/7.jpg" />
     <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/0.jpg" />
-    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/2.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/4.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/6.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/8.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/闪灵二人组.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/muke.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/jike.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹/第133话/0.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/2.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/4.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/6.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/8.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/manhua/第0话/9.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/muke.py" />
+    <entry file="file://$PROJECT_DIR$/Pachong/jike.py" />
+    <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹/第133话/0.jpg" />
     <entry file="file:///Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/pymysql/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="31">
@@ -435,10 +441,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/鬼眼狂刀.py">
+    <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹/第1话/0.jpg" />
+    <entry file="file://$PROJECT_DIR$/Pachong/Boss直聘.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
+        <state relative-caret-position="90">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/test02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-447">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/闪灵二人组.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
@@ -447,20 +485,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="15" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/Boss直聘.py">
+    <entry file="file://$PROJECT_DIR$/Pachong/鬼眼狂刀.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+        <state relative-caret-position="381">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>

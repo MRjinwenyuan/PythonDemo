@@ -1,3 +1,4 @@
+import multiprocessing
 import os
 import re
 from os import path
@@ -6,28 +7,20 @@ import requests
 from bs4 import BeautifulSoup
 
 
-def gethtml(num):
-    url = "https://manhua.fzdm.com/13/"
+def gethtml(ary):
 
-    response = requests.get(url).text
-
-    soup = BeautifulSoup(response, 'lxml')
-
-    ary = soup.findAll('li', class_='pure-u-1-2 pure-u-lg-1-4')
-    ary.reverse()
-
-    for eleindex, ele in enumerate(ary):
-        if eleindex < num:
-            continue
+    for  ele in ary:
+        # if eleindex < num:
+        #     continue
 
         cannext = True
         index = 0
 
         while cannext == True:
-            index += 1
 
-            suburl = url + '/' + ele.a.get('href') + '/index_' + str(index) + '.html'
+            suburl = url + ele.a.get('href') + 'index_' + str(index) + '.html'
             urlresponse = requests.get(suburl)
+            index += 1
 
             # 中断
             if urlresponse.status_code != 200:
@@ -45,6 +38,8 @@ def gethtml(num):
                 imgurl = "http://p0.manhuapan.com/13/" + ele.a.get('href') + imgindex[0]
                 img = requests.get(imgurl).content
 
+                # print(imgurl)
+
                 with open(dirpath + '/' + str(index) + '.jpg', 'wb') as f:
                     f.write(img)
                     f.close()
@@ -53,4 +48,32 @@ def gethtml(num):
 
 if __name__ == '__main__':
     # 文件太多 经常中断  输入下标 从下标开始爬
-    gethtml(0)
+    # gethtml(0)
+
+    url = "https://manhua.fzdm.com/13/"
+
+    response = requests.get(url).text
+
+    soup = BeautifulSoup(response, 'lxml')
+
+    ary = soup.findAll('li', class_='pure-u-1-2 pure-u-lg-1-4')
+    # 逆序
+    ary.reverse()
+
+    #其它的都下完了
+    # ary = ary[20:30]
+
+    processNum = 5
+    aryLenth = int(len(ary) / processNum)
+
+    for i in range(processNum):
+        # 分割成n个数组
+        subary = []
+        if i == processNum - 1:
+            subary = ary[i * aryLenth:]
+        else:
+            subary = ary[i * aryLenth:(i + 1) * aryLenth]
+
+        # 开始每个小任务
+        p = multiprocessing.Process(target=gethtml, args=(subary,))
+        p.start()

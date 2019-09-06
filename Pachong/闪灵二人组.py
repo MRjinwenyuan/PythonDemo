@@ -24,10 +24,9 @@ def gethtml(num):
         index = 0
 
         while cannext == True:
-            index += 1
-
             suburl = url + '/' + ele.a.get('href') + 'index_' + str(index) + '.html'
             urlresponse = requests.get(suburl)
+            index += 1
 
             # 中断
             if urlresponse.status_code != 200:
