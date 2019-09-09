@@ -10,8 +10,6 @@ from bs4 import BeautifulSoup
 def gethtml(ary):
 
     for  ele in ary:
-        # if eleindex < num:
-        #     continue
 
         cannext = True
         index = 0
