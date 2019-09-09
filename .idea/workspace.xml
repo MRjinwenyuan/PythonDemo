@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a880fc5e-7bbb-49fc-92b4-5b8c6d916694" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Pachong/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/.idea/Pachong.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pachong/妙手仙丹.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pachong/妙手仙丹.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pachong/闪灵二人组.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pachong/闪灵二人组.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pachong/鬼眼狂刀.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pachong/鬼眼狂刀.py" afterDir="false" />
     </list>
@@ -21,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pachong/鬼眼狂刀.py">
+        <entry file="file://$PROJECT_DIR$/Pachong/闪灵二人组.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+            <state relative-caret-position="360">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -58,6 +53,8 @@
       <find>title</find>
       <find>index</find>
       <find>鬼眼狂刀第23卷</find>
+      <find>闪灵二人组第7卷</find>
+      <find>错误的</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Pachong/manhua</dir>
@@ -75,17 +72,17 @@
         <option value="$PROJECT_DIR$/Pachong/jike.py" />
         <option value="$PROJECT_DIR$/Pachong/guiyankuangdao.py" />
         <option value="$PROJECT_DIR$/Pachong/Boss直聘.py" />
-        <option value="$PROJECT_DIR$/Pachong/闪灵二人组.py" />
-        <option value="$PROJECT_DIR$/Pachong/test.py" />
         <option value="$PROJECT_DIR$/Pachong/test02.py" />
         <option value="$PROJECT_DIR$/Pachong/妙手仙丹.py" />
         <option value="$PROJECT_DIR$/Pachong/鬼眼狂刀.py" />
+        <option value="$PROJECT_DIR$/Pachong/test.py" />
+        <option value="$PROJECT_DIR$/Pachong/闪灵二人组.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="41" />
-    <option name="y" value="252" />
+    <option name="x" value="5" />
+    <option name="y" value="187" />
     <option name="width" value="1233" />
     <option name="height" value="748" />
   </component>
@@ -97,6 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,7 +111,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -133,7 +130,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.guiyankuangdao">
+  <component name="RunManager" selected="Python.闪灵二人组">
     <configuration name="妙手仙丹" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -155,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Boss直聘" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="闪灵二人组" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonDemo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -167,7 +164,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/Boss直聘.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pachong/闪灵二人组.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.闪灵二人组" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.guiyankuangdao" />
         <item itemvalue="Python.test02" />
         <item itemvalue="Python.妙手仙丹" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.Boss直聘" />
       </list>
     </recent_temporary>
   </component>
@@ -305,15 +302,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="41" y="252" width="1233" height="748" extended-state="0" />
-    <editor active="true" />
+    <frame x="10" y="120" width="1233" height="748" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28382838" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28382838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924694" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963742" weight="0.18445122" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49963742" visible="true" weight="0.24390244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39972144" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,24 +445,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/test02.py" />
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/multiprocessing/__init__.pyi">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
+        <state relative-caret-position="430">
+          <caret line="59" column="34" lean-forward="true" selection-start-line="59" selection-start-column="34" selection-end-line="59" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pachong/鬼眼狂刀.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="38" column="50" selection-start-line="38" selection-start-column="50" selection-end-line="38" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pachong/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/test02.py">
+    <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-447">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        <state relative-caret-position="15">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="15" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -475,28 +482,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pachong/闪灵二人组.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-235">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/妙手仙丹.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pachong/鬼眼狂刀.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+        <state relative-caret-position="360">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>

@@ -47,8 +47,6 @@ def gethtml(ary):
 
 
 if __name__ == '__main__':
-    # 文件太多 经常中断  输入下标 从下标开始爬
-    # gethtml(0)
 
     url = "https://manhua.fzdm.com/13/"
 
