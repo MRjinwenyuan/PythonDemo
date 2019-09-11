@@ -1,3 +1,4 @@
+import json
 import multiprocessing
 import os
 import re
@@ -33,9 +34,9 @@ def downfromli(li):
         mhindex = re.findall(reg, urlstr)[0]
     except:
         #这种是一整部没进去
-        with open(path.dirname(__file__) + '/韩国漫画' + '/整部错误.txt', 'a+') as f:
-            f.write(conurl + '\n')
-            f.close()
+        # with open(path.dirname(__file__) + '/韩国漫画' + '/整部错误.txt', 'a+') as f:
+        #     f.write(conurl + '\n')
+        #     f.close()
             return
 
 
@@ -43,7 +44,7 @@ def downfromli(li):
     page = 1
     cannext = True
 
-    #写json 的两个中间数组
+    #写json的两个中间数组
     imgurls = []
     sumimgs = []
     while cannext == True:
@@ -51,7 +52,7 @@ def downfromli(li):
 
         try:
             # imgrequest = requests.get(imgurl)
-            #写json 用head就行
+            #写json用head就行
             imgrequest = requests.head(imgurl)
         except:
             # with open(path.dirname(__file__) + '/韩国漫画' + '/单张错误.txt', 'a+') as f:
@@ -90,7 +91,16 @@ def downfromli(li):
         page += 1
 
     #sumings 就是所有图片数组
-    print(sumimgs)
+    dic = {"title": title,
+           "imgs": sumimgs
+           }
+
+    filename = path.dirname(__file__) + '/json/' + title +'.json'
+
+    with open(filename, 'w+') as f:
+        json.dump(dic, f)
+        f.close()
+
 
 def pricesspool():
     # 任务是动态的，有爬到的就新增  开始的就删除
@@ -105,6 +115,16 @@ def pricesspool():
         'Content - Disposition': 'form - data',
     }
 
+    # 连载中的15页  &is_finished=1
+    for i in range(14):
+        url = "http://xs.6taowl.com/index.php?c=commic&a=cates&p=" + str(i + 1) + "&is_finished=1"
+
+        response = requests.get(url=url, headers=headers).text
+
+        soup = BeautifulSoup(response, 'lxml')
+
+        tasklist.extend(soup.findAll('ul', )[3].select('li'))
+
     # 已完结的共15页
     for i in range(14):
         url = "http://xs.6taowl.com/index.php?c=commic&a=cates&p=" + str(i + 1) + "&is_finished=2"
@@ -115,37 +135,37 @@ def pricesspool():
 
         tasklist.extend(soup.findAll('ul', )[3].select('li'))
 
-    # 测试一个
-    downfromli(tasklist[0])
+
+    listcount  = len(tasklist)
 
     # 下面除了函数参数和时长  其它都不用改变
-    # processlist = []
-    # processnum = 15
-    #
-    # for i in range(processnum):
-    #     p = multiprocessing.Process(target=funcname, args=(tasklist[0],))
-    #     p.start()
-    #     processlist.append(p)
-    #     tasklist.remove(tasklist[0])
-    #
-    #
-    # while True:
-    #     time.sleep(30)
-    #     for j in range(processnum):
-    #         p = processlist[j]
-    #         if p.exitcode != None:
-    #
-    #             # 没有任务了
-    #             if len(tasklist) == 0:return
-    #
-    #             # 关掉老的P  新建一个P
-    #             processlist.remove(p)
-    #             p.close()
-    #
-    #             newp = multiprocessing.Process(target=funcname, args=(tasklist[0],))
-    #             newp.start()
-    #             processlist.insert(j, newp)
-    #             tasklist.remove(tasklist[0])
+    processlist = []
+    processnum = 10
+
+    for i in range(processnum):
+        p = multiprocessing.Process(target=funcname, args=(tasklist[0],))
+        p.start()
+        processlist.append(p)
+        tasklist.remove(tasklist[0])
+
+    while True:
+        time.sleep(30)
+        print("总数" + str(listcount) + "  剩余数   "  + str(len(tasklist)))
+        for j in range(processnum):
+            p = processlist[j]
+            if p.exitcode != None:
+
+                # 没有任务了
+                if len(tasklist) == 0:return
+
+                # 关掉老的P  新建一个P
+                processlist.remove(p)
+                p.close()
+
+                newp = multiprocessing.Process(target=funcname, args=(tasklist[0],))
+                newp.start()
+                processlist.insert(j, newp)
+                tasklist.remove(tasklist[0])
 
 
 def opencuowu():
@@ -168,6 +188,18 @@ def opencuowu():
                 f.close()
 
                 print(dirpath + imgpath)
+
+
+def updateMulu():
+    #flutter不能自己遍历目录那就自己创建一个索引
+    filename = path.dirname(__file__) + '/json/'
+    listdir = os.listdir(filename)
+    listdir.remove('.DS_Store')
+    listdir.remove('目录.txt')
+    dic = {"comic": listdir}
+    with open(filename + '目录.txt', 'w+') as f:
+        json.dump(dic, f)
+        f.close()
 
 
 if __name__ == '__main__':
