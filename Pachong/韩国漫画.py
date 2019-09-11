@@ -7,6 +7,7 @@ from os import path
 import requests
 from bs4 import BeautifulSoup
 
+
 def downfromli(li):
     headers = {
         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36',
@@ -90,7 +91,7 @@ def pricesspool():
         'Content - Disposition': 'form - data',
     }
 
-    # 完结的 15页
+    # 已完结的共15页
     for i in range(14):
         url = "http://xs.6taowl.com/index.php?c=commic&a=cates&p=" + str(i + 1) + "&is_finished=2"
 
@@ -128,6 +129,7 @@ def pricesspool():
                 newp.start()
                 processlist.insert(j, newp)
                 tasklist.remove(tasklist[0])
+
 
 if __name__ == '__main__':
     pricesspool()
