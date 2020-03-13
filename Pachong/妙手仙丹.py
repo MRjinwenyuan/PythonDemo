@@ -29,6 +29,10 @@ if __name__ == '__main__':
     url = "https://www.mkzhan.com/210400"
     response = requests.get(url).text
 
+    # js = requests.get(url).json()
+
+    # print(js)
+
     soup = BeautifulSoup(response, 'lxml')
 
     ary = soup.findAll('a', class_='j-chapter-link')

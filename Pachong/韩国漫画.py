@@ -116,14 +116,14 @@ def pricesspool():
     }
 
     # 连载中的15页  &is_finished=1
-    for i in range(14):
-        url = "http://xs.6taowl.com/index.php?c=commic&a=cates&p=" + str(i + 1) + "&is_finished=1"
-
-        response = requests.get(url=url, headers=headers).text
-
-        soup = BeautifulSoup(response, 'lxml')
-
-        tasklist.extend(soup.findAll('ul', )[3].select('li'))
+    # for i in range(14):
+    #     url = "http://xs.6taowl.com/index.php?c=commic&a=cates&p=" + str(i + 1) + "&is_finished=1"
+    #
+    #     response = requests.get(url=url, headers=headers).text
+    #
+    #     soup = BeautifulSoup(response, 'lxml')
+    #
+    #     tasklist.extend(soup.findAll('ul', )[3].select('li'))
 
     # 已完结的共15页
     for i in range(14):
@@ -140,7 +140,7 @@ def pricesspool():
 
     # 下面除了函数参数和时长  其它都不用改变
     processlist = []
-    processnum = 10
+    processnum = 5
 
     for i in range(processnum):
         p = multiprocessing.Process(target=funcname, args=(tasklist[0],))
@@ -194,8 +194,8 @@ def updateMulu():
     #flutter不能自己遍历目录那就自己创建一个索引
     filename = path.dirname(__file__) + '/json/'
     listdir = os.listdir(filename)
-    listdir.remove('.DS_Store')
-    listdir.remove('目录.txt')
+    # listdir.remove('.DS_Store')
+    # listdir.remove('目录.txt')
     dic = {"comic": listdir}
     with open(filename + '目录.txt', 'w+') as f:
         json.dump(dic, f)
@@ -203,5 +203,6 @@ def updateMulu():
 
 
 if __name__ == '__main__':
-    pricesspool()
+    # pricesspool()
     # opencuowu()
+    updateMulu()

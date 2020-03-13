@@ -1,15 +1,19 @@
+from typing import List
 import json
-from os import path
-import os
 
 if __name__ == '__main__':
-    filename = path.dirname(__file__) + '/json/'
-    listdir = os.listdir(filename)
-    listdir.remove('.DS_Store')
-    listdir.remove('目录.txt')
+    data = {
+        'no': 1,
+        'name': 'Runoob',
+        'url': 'http://www.runoob.com',
+        'dic':[
+        {"name":"jin"},{"m":"ddd"}
+        ]
+    }
+    #json 字符串
+    json_str = json.dumps(data)
+    # 将 JSON 对象转换为 Python 字典
+    data2 = json.loads(json_str)
+    print(data2["dic"])
 
-    dic = {"comic": listdir}
 
-    with open(filename + '目录.txt', 'w+') as f:
-        json.dump(dic, f)
-        f.close()
